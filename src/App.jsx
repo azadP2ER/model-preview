@@ -67,17 +67,8 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    const el = viewerRef.current;
-    if (!el) return;
-    const targetEnv = env === NEUTRAL_ENV ? null : env;
-    el.environmentImage = targetEnv;
-    if (targetEnv) {
-      const timeout = setTimeout(() => {
-        const img = new Image();
-        img.onerror = () => { el.environmentImage = null; };
-        img.src = targetEnv;
-      }, 5000);
-      return () => clearTimeout(timeout);
+    if (viewerRef.current) {
+      viewerRef.current.environmentImage = env === NEUTRAL_ENV ? null : env;
     }
   }, [env]);
 

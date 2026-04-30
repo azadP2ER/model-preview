@@ -3,5 +3,8 @@
     "name": "Partly Cloudy",
     "url": "./hdrs/kloofendal_48d_partly_cloudy_puresky_1k.hdr"
   },
-  { "name": "Neutral", "url": null }
+  { "name": "Neutral", "url": null },
+  { "name": "TestHDRI", "url": "./hdrs/kloofendaal_hdri.hdr" },
+  { "name": "TestHDRIKTX", "url": "./hdrs/kloofendaal_hdriktx.hdr" },
+  { "name": "UltraHDR/Jpeg", "url": "./hdrs/kloofendaal.jpg" }
 ]

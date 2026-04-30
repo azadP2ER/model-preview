@@ -1,6 +1,7 @@
 [
-  { "name": "Partly Cloudy", "url": "./hdrs/kloofendal_48d_partly_cloudy_puresky_1k.hdr" },
-  { "name": "Outdoor", "url": "https://modelviewer.dev/shared-assets/environments/aircraft_workshop_01_1k.hdr" },
-  { "name": "Studio", "url": "https://modelviewer.dev/shared-assets/environments/studio_small_03_1k.hdr" },
+  {
+    "name": "Partly Cloudy",
+    "url": "./hdrs/kloofendal_48d_partly_cloudy_puresky_1k.hdr"
+  },
   { "name": "Neutral", "url": null }
 ]

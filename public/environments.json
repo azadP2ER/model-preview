@@ -1,0 +1,5 @@
+[
+  { "name": "Outdoor", "url": "https://modelviewer.dev/shared-assets/environments/aircraft_workshop_01_1k.hdr" },
+  { "name": "Studio", "url": "https://modelviewer.dev/shared-assets/environments/studio_small_03_1k.hdr" },
+  { "name": "Neutral", "url": null }
+]
